@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <title>Petshop</title>
+  </head>
+  <body>
+    <header>
+      <!-- Barra de idiomas -->
+      <div class="barra-idiomas">
+        <p>Grandes ofertas en comederos</p>
+        <ul>
+          <li>Español</li>
+          <li>$ARG</li>
+        </ul>
+      </div>
+
+      <!-- Barra de menú principal -->
+      <nav class="menu-principal">
+        <div class="logo">
+          <a href="#">
+            <img
+              class="logo"
+              src="./img/logo_blanco.png"
+              alt="logo front pet"
+            />
+          </a>
+        </div>
+
+        <div class="menu-opciones">
+          <span class="menu-toggle">&#9776</span>
+          <ul type="none">
+            <li>
+              <a href="#"><img src="img/icons/icono_patita2.png" />Comederos</a>
+            </li>
+            <li>
+              <a href="#"><img src="img/icons/icono_patita2.png" />Pets</a>
+            </li>
+            <li>
+              <a href="#"><img src="img/icons/icono_patita2.png" />Nosotros</a>
+            </li>
+            <li>
+              <a href="#"><img src="img/icons/icono_patita2.png" />Contactanos</a>
+            </li>
+          </ul>
+        </div>
+       
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección banner -->
+      <section class="banner">
+        <article>
+          <p class="mensaje-1">¡Es un placer tenerte aquí!</p>
+          <p>¡Comederos en descuento!</p>
+          <button class="boton-banner">COMEDEROS</button>
+        </article>
+      </section>
+
+      <!-- Sección de productos destacados -->
+      <section class="productos-destacados">
+        <img
+          class="img-patita"
+          src="./img/icons/icono_patita.png"
+          alt="imagen patita"
+        />
+        <h1>Productos destacados</h1>
+        <ul class="categorias-producto">
+          <li>Comederos</li>
+          <li>-</li>
+          <li>Accesorios</li>
+          <li>-</li>
+          <li>Comida</li>
+        </ul>
+        <ul class="lista-productos" type="none">
+          <li>
+            <article>
+              <img
+                src="img/img_productos/churrasquito.png"
+                alt="juguete churrasquito"
+              />
+              <p>Juguete churrasquito</p>
+              <p class="precio">$150</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img
+                src="img/img_productos/comedero.png"
+                alt="comedero para perro"
+              />
+              <p>Comedero para perro</p>
+              <p class="precio">$250</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="img/img_productos/huesito.png" alt="juguete huesito" />
+              <p>Juguete huesito</p>
+              <p class="precio">$650</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Sección contactanos -->
+      <section class="seccion-contacto">
+        <h2>Contáctanos</h2>
+
+        <form class="formulario contacto">
+          <input type="text" class="input-formulario" name="nombre" placeholder="Nombre y apellido" required>
+          <input type="email" class="input-formulario" name="nombre" placeholder="Ingresa correo electrónico" required>
+          <input type="tel" class="input-formulario" name="nombre" placeholder="Teléfono">
+          <div class="botones-contacto">
+            <button type="reset" class="boton-resetear">Resetar</button>
+            <button type ="submit" class="boton-enviar">Enviar</button>
+          </div>
+        </form>
+
+      
+      </section>
+    </main>
+
+    <footer>
+      <!-- Sección suscripción -->
+      <section class="suscribete">
+        <div>
+          <img src="./img/icons/icono_mensaje.png" alt="mensaje" />
+          <h2>Suscribete para más novedades</h2>
+        </div>
+
+        <div>
+          <form class="formulario suscripcion">
+            <input  type="email" class="form-instruccion" placeholder="Ingresa tu correo electrónico" required>
+            <button type="submit" class="boton-suscripcion">Suscribirme</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Sección información -->
+      <section class="footer-info">
+        <ul type="none">
+          <li>
+            <article>
+              <img src="img/icons/icono_ubicacion.png" alt="icono ubicacion" />
+              <div>
+                <h3>Localidad</h3>
+                <p>Calle - Provincia</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="img/icons/icono_telefono.png" alt="icono telefono" />
+              <div>
+                <h3>Teléfono</h3>
+                <p>Número de teléfono</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="img/icons/icono_correo.png" alt="icono correo" />
+              <div>
+                <h3>Correo</h3>
+                <p>Dirección de correo eléctronico</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <img src="./img/logo_naranja.png" alt="logo front pet" />
+      </section>
+
+      <p class="barra-final" align="center">
+        Todos los derechos reservados Frontend
+      </p>
+    </footer>
+  </body>
+</html>
+<!-- Esta es una prueba del teclado que me quiero comprar porque este esta re suelto ajajajaj que chistoso y horrorifico -->
